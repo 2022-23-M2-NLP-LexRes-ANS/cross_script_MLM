@@ -66,5 +66,17 @@ dependencies:
   - zeromq=4.3.4=h9c3ff4c_1
   - zipp=3.12.1=pyhd8ed1ab_0
   - pip:
+      - blingfire==0.1.8
+      - contourpy==1.0.7
+      - cycler==0.11.0
+      - fonttools==4.38.0
+      - kiwisolver==1.4.4
+      - matplotlib==3.6.3
+      - numpy==1.24.2
+      - pandas==1.5.3
+      - pillow==9.4.0
+      - pyparsing==3.0.9
+      - pytz==2022.7.1
+      - seaborn==0.12.2
       - wikiextractor==3.0.6
 prefix: /home/user/miniforge3/envs/LexResProject
