@@ -37,13 +37,8 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 #dataset = load_dataset("MLRS/korpus_malti", split=['train[:10%]', 'test[:10%]'])  # this is too slow.
 #dataset = load_dataset("MLRS/korpus_malti")
-
-# model = AutoModelForMaskedLM.from_pretrained("MLRS/mBERTu")
-# tokenizer = AutoTokenizer.from_pretrained("MLRS/mBERTu")
-
-model_id = "bert-base-multilingual-cased"
-model = AutoModelForMaskedLM.from_pretrained(model_id)
-tokenizer = AutoTokenizer.from_pretrained(model_id)
+model = AutoModelForMaskedLM.from_pretrained("MLRS/mBERTu")
+tokenizer = AutoTokenizer.from_pretrained("MLRS/mBERTu")
 
 # dataset
 # train = dataset['train'].shard(num_shards=246, index=0)  # 69k - 70k
