@@ -1,0 +1,8 @@
+transformers
+datasets
+pandas
+dataclasses
+torch
+numpy
+scikit-learn #sklearn
+tokenizers
